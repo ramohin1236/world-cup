@@ -11,7 +11,7 @@ body{
 .earth{
     position: absolute;
     top: 50px;
-    left: 50px;
+    left:  50px;
     right: 50px;
 
     
@@ -35,6 +35,9 @@ p{
     padding-bottom: 10px;
     
 }
+.first-heading{
+
+}
 .heading{
     font-family: 'Poppins';
     margin-top: 80px;
@@ -44,7 +47,7 @@ p{
 .container{
     display: flex;
     background-color: #161616;
-    width: 1100px;
+    width: 100%;
     height: 550px;
 
     border-radius: 20px;
@@ -67,6 +70,9 @@ second area ************/
     margin-top: 80px;
 
 }
+#exceptional:hover{
+    background-color: greenyellow;
+}
 .same{
     width: 252px;
     height: 64px;
@@ -74,6 +80,7 @@ second area ************/
     margin-top: 28px;
     background-color: plum;
     border-radius: 10px;
+    margin-right: 28px;
 }
 button{
     font-size: 20px;
@@ -155,6 +162,8 @@ footer area
  .two{
     color: #161616;
  }
+ 
+
  /***************** 
  media quaries
   ***********/
@@ -165,6 +174,8 @@ footer area
  @media only screen and (max-width: 600px;){
             .container{
             display: none;
+            grid-template-columns: repeat(1, 1fr);
+            
 
                }
  }
