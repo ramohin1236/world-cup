@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 1321px;
+    height: 646px;
+
+}
 .earth{
     position: absolute;
     top: 50px;
-    left: 140px;
+    left: 50px;
+    right: 50px;
 
     
 }
@@ -20,7 +26,7 @@ a{
     
 }
 p{
-    color: black;
+    color: white;
 }
 .button{
     border-radius: 15px;
@@ -51,6 +57,8 @@ second area ************/
 
 .menu-bar{
 }
+
+
 .jhamela{
     background-color: #161616;
     width: 312px;
@@ -78,7 +86,7 @@ button{
     
 }
 #mini-mini{
-    padding-left: 100px;
+    padding-left: 80px;
 }
 .funny{
     display: flex;
@@ -104,5 +112,60 @@ button{
     grid-template-columns: repeat(3 ,1fr); 
 
 }
+.section-2{
 
+    
+}
+/************* 
+footer area
+ ************/
+ 
+ .matha-kharap{
+    background-color: #161616;
+    width: 1600px; 
+    height: 444px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Poppins';
+    
+     
+     text-align: center;
+     padding-top: 200px;
+ }
+ .footer-button{
+    display: flex;
+    padding-left: 40%;
+ }
+ .footer-button a{
+    
+    font-size: 10px;
+
+ }
+ .footer-icon{
+    display: flex;
+    padding-left: 50%;
+    
+ }
+ .facebook{
+    padding-right: 5%;
+ }
+ .one{
+    margin-top: 15%;
+ }
+ .two{
+    color: #161616;
+ }
+ /***************** 
+ media quaries
+  ***********/
+
+/***********
+ mobile 
+ **********/
+ @media only screen and (max-width: 600px;){
+            .container{
+            display: none;
+
+               }
+ }
 
